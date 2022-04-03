@@ -164,7 +164,7 @@ const char* FUNCTIONS[] = {
   "UART3_TX","UART3_RX","UART3_RTS","UART3_CTS",      // 31-34
   "S_UART_TX","S_UART_RX",                            // 35-36
   "PWM0","PWM1","S_PWM",                              // 37-39
-  "IO DISABLED", "TWI3_SCK". "TWI3_SDA",              // 40-42
+  "IO DISABLED", "TWI3_SCK", "TWI3_SDA",              // 40-42
   "UART5_TX", "UART5_RX"                              //43-44
 };
 
