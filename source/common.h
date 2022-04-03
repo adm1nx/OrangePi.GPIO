@@ -31,8 +31,9 @@ SOFTWARE.
 #define LITE            4
 #define PLUS2E          4
 #define PC2             5
-#define PRIME           6
 #define ZERO2_H616      8
+#define PRIME           6
+
 
 #define MODE_UNKNOWN   -1
 #define BOARD          10
