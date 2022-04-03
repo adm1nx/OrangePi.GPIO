@@ -30,6 +30,7 @@ It is based on the original [RPi.GPIO](https://pypi.python.org/pypi/RPi.GPIO).
 * OPi LITE
 * OPi PC2
 * OPi PRIME
+* OPi ZERO2
 
 ## Usage
 
