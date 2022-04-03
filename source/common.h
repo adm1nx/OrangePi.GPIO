@@ -32,7 +32,7 @@ SOFTWARE.
 #define PLUS2E          4
 #define PC2             5
 #define PRIME           6
-#define ZERO2           8
+#define ZERO2_H616      8
 
 #define MODE_UNKNOWN   -1
 #define BOARD          10
@@ -43,7 +43,7 @@ SOFTWARE.
 
 int board_type;
 int gpio_mode;
-const int (*pin_to_gpio)[41];
+const int (*pin_to_gpio)[45];
 
 int gpio_direction[383];
 int setup_error;

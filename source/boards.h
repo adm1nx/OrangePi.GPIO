@@ -20,13 +20,13 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 */
 
-const int pin_to_gpio_zero[41];
-const int pin_to_gpio_zero2[41];
-const int pin_to_gpio_zero2_h616[41];
-const int pin_to_gpio_pc[41];
-const int pin_to_gpio_pc2[41];
-const int pin_to_gpio_prime[41];
+const int pin_to_gpio_zero[45];
+const int pin_to_gpio_zero2[45];
+const int pin_to_gpio_zero2_h616[45];
+const int pin_to_gpio_pc[45];
+const int pin_to_gpio_pc2[45];
+const int pin_to_gpio_prime[45];
 
-const char* FUNCTIONS[41];
+const char* FUNCTIONS[45];
 
 int gpio_function_name(int gpio, int func, int board);

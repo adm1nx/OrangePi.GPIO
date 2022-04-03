@@ -25,7 +25,7 @@ SOFTWARE.
 #include "boards.h"
 
 /* OrangePi Zero / Zero+ / R1 / Zero+2H5 */
-const int pin_to_gpio_zero[41] = {
+const int pin_to_gpio_zero[45] = {
   -1, -1, -1, // 0, 1, 2
   12, -1, // 3, 4
   11, -1, // 5, 6
@@ -43,7 +43,7 @@ const int pin_to_gpio_zero[41] = {
 };
 
 /* OrangePi Zero Plus 2 H3 */
-const int pin_to_gpio_zero2[41] = {
+const int pin_to_gpio_zero2[45] = {
   -1, -1, -1, // 0, 1, 2
   12, -1, // 3, 4
   11, -1, // 5, 6
@@ -61,7 +61,7 @@ const int pin_to_gpio_zero2[41] = {
 };
 
 /* OrangePi Zero 2 H616 */
-const int pin_to_gpio_zero2_h616[41] = {
+const int pin_to_gpio_zero2_h616[45] = {
   -1, -1, -1, // 0, 1, 2
   229, -1, // 3, 4
   228, -1, // 5, 6
@@ -79,7 +79,7 @@ const int pin_to_gpio_zero2_h616[41] = {
 };
 
 /* OrangePi PC / PC+ / One / Lite / Plus2E */
-const int pin_to_gpio_pc[41] = {
+const int pin_to_gpio_pc[45] = {
   -1, -1, -1, // 0, 1, 2
   12, -1, // 3, 4
   11, -1, // 5, 6
@@ -103,7 +103,7 @@ const int pin_to_gpio_pc[41] = {
 };
 
 /* OrangePi PC2 */
-const int pin_to_gpio_pc2[41] = {
+const int pin_to_gpio_pc2[45] = {
   -1, -1, -1, // 0, 1, 2
   12, -1, // 3, 4
   11, -1, // 5, 6
@@ -127,7 +127,7 @@ const int pin_to_gpio_pc2[41] = {
 };
 
 /* OrangePi Prime */
-const int pin_to_gpio_prime[41] = {
+const int pin_to_gpio_prime[45] = {
   -1, -1, -1, // 0, 1, 2
   12, -1, // 3, 4
   11, -1, // 5, 6
