@@ -81,6 +81,9 @@ void define_constants(PyObject *module)
 	bzeroplus3 = Py_BuildValue("i", ZEROPLUS2H3);
 	PyModule_AddObject(module, "ZEROPLUS2H3", bzeroplus3);
 
+	bzero2 = Py_BuildValue("i", ZERO2);
+	PyModule_AddObject(module,"ZERO2", bzero2);
+
 	bpc = Py_BuildValue("i", PCPCPLUS);
 	PyModule_AddObject(module, "PCPCPLUS", bpc);
 	PyModule_AddObject(module, "PLUS2E", bpc);

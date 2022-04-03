@@ -37,7 +37,7 @@ with open("README.md", "r") as fh:
       long_description = fh.read()
 
 setup(name             = 'OrangePi.GPIO',
-      version          = '0.6.3',
+      version          = '0.6.4',
       author           = 'Jeremie-C',
       description      = 'A module to control OrangePi GPIO channels',
       long_description=long_description,
